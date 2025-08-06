@@ -1,0 +1,122 @@
+/* style.css */
+
+/* Cores e fontes */
+:root {
+    --cor-principal: #2A3D66; /* Azul Escuro */
+    --cor-destaque: #FFD700; /* Amarelo Vibrante */
+    --cor-secundaria: #FF69B4; /* Rosa Divertido */
+    --cor-fundo: #F0F2F5; /* Cinza claro */
+    --cor-texto: #333333; /* Texto padrão */
+}
+
+/* Reset básico e estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: var(--cor-principal);
+    color: #FFFFFF;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilos da Navegação */
+nav {
+    background-color: var(--cor-secundaria);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-principal);
+}
+
+/* Estilos do Conteúdo Principal */
+main {
+    padding: 40px 0;
+}
+
+section {
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: var(--cor-principal);
+    font-size: 2em;
+    border-bottom: 2px solid var(--cor-destaque);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Botão de destaque */
+.btn-principal {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-principal:hover {
+    background-color: #FFD200;
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: var(--cor-principal);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}

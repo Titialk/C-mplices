@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cúmplices de um Resgate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Cúmplices de um Resgate</h1>
+            <p>O fã-site oficial!</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Personagens</a></li>
+                <li><a href="#">Músicas</a></li>
+                <li><a href="#">Galeria</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="sobre-a-novela">
+                <h2>Sobre a Novela</h2>
+                <p>
+                    "Cúmplices de um Resgate" é uma emocionante novela brasileira do SBT que conta a história de **Manuela e Isabela**, duas irmãs gêmeas separadas no nascimento. Com talentos musicais e personalidades diferentes, elas trocam de lugar para resolver desafios e descobrir a verdade sobre suas famílias. A trama é recheada de música, amizade e grandes aventuras.
+                </p>
+            </section>
+
+            <section class="destaque-musica">
+                <h2>Ouvir as Músicas</h2>
+                <p>
+                    A trilha sonora da novela é um sucesso! Aqui você encontra as músicas mais marcantes que embalaram a história da banda.
+                </p>
+                <button class="btn-principal">
+                    Play
+                </button>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Fã-site Cúmplices de um Resgate. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
